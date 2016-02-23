@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/colorpicker" android:title="Color"
+        android:icon="@drawable/colorpicker" app:showAsAction="always" />
+
+    <item android:id="@+id/Circulo" android:title="Circulo"
+        android:orderInCategory="100" app:showAsAction="always" android:icon="@drawable/circle" />
+
+    <item android:id="@+id/linea" android:title="Linea" android:icon="@drawable/linea"
+        android:orderInCategory="100" app:showAsAction="always" />
+
+    <item android:id="@+id/linearecta" android:title="Linea recta" android:icon="@drawable/lrecta"
+        android:orderInCategory="100" app:showAsAction="always" />
+
+    <item android:id="@+id/rectangulo" android:title="Rectangulo"
+        android:orderInCategory="100" app:showAsAction="always" android:icon="@drawable/rectangle"/>
+
+    <item android:id="@+id/solobordes" android:title="Solo bordes" android:icon="@drawable/onlyborders"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/nueva" android:title="Nuevo" app:showAsAction="never"/>
+
+    <item android:id="@+id/importar" android:title="Importar" app:showAsAction="never"/>
+
+    <item android:id="@+id/exportar" android:title="Exportar" app:showAsAction="never"/>
+
+</menu>
